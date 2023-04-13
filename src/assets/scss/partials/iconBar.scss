@@ -1,0 +1,13 @@
+#icon_sec {
+   height: 150px;
+
+   a {
+      text-decoration: none;
+      color: white;
+      font-size: small;
+
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+}
