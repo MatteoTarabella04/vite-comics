@@ -57,7 +57,7 @@ export default {
                </div>
             </div>
             <div class="foot_logo">
-               <img height="350" src="./assets/img/dc-logo-bg.png" alt="bg_dc_logo">
+               <img height="350" src="../assets/img/dc-logo-bg.png" alt="bg_dc_logo">
             </div>
          </div>
       </section>
