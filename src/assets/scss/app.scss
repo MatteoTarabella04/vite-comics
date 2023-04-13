@@ -1,7 +1,12 @@
 @use 'node_modules/bootstrap/scss/bootstrap.scss';
 @use './partials/header.scss';
 @use './partials/main.scss';
+@use './partials/iconBar.scss';
 
 body {
    font-family: 'Roboto', sans-serif;
+}
+
+img {
+   max-width: 100%;
 }
