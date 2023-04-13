@@ -1,10 +1,27 @@
 <script>
-export default {
 
+import appHeader from './components/_header.vue'
+
+export default {
+  components: {
+    appHeader
+  },
+
+  data() {
+    return {
+
+    }
+  }
 }
 </script>
 
-<template></template>
+<template>
+  <appHeader />
+
+  <main></main>
+
+  <footer></footer>
+</template>
 
 
 <style lang="scss" scoped></style>
