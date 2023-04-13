@@ -2,18 +2,21 @@
 
 import appHeader from './components/_header.vue';
 import appMain from './components/_main.vue';
+import sectionIconBar from './components/_iconBar.vue';
 
 export default {
   components: {
     appHeader,
-    appMain
+    appMain,
+    sectionIconBar,
   },
 
   data() {
     return {
 
     }
-  }
+  },
+
 }
 </script>
 
@@ -21,6 +24,9 @@ export default {
   <appHeader />
 
   <appMain />
+
+  <sectionIconBar />
+
 
   <footer></footer>
 </template>
