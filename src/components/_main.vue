@@ -15,15 +15,16 @@ export default {
 
 <template>
    <main class="bg-dark">
-      <div class="container">
-         <section id="main_sec">
+      <section id="main_sec">
+         <div class="container">
             <h3 class="m-0 py-5 text-white">-- Content Goes Here --</h3>
-         </section>
-         <!-- /#main_sec -->
-      </div>
-      <!-- /.container -->
+         </div>
+         <!-- /.container -->
+      </section>
+      <!-- /#main_sec -->
    </main>
 </template>
+
 
 
 <style lang="scss" scoped></style>
