@@ -5,6 +5,7 @@ export default {
 
    data() {
       return {
+         activeLink: -1,
          menuLinks: [
             {
                name: "characters",
@@ -53,7 +54,7 @@ export default {
             </div>
             <div class="menu">
                <ul class="list-unstyled d-flex gap-4 mb-0">
-                  <li v-for="link in menuLinks">
+                  <li v-for="(link, i) in menuLinks" :class="activeLink === i ? 'active' : ''" @click="activeLink = i">
                      <strong><a href="#">{{ link.name.toUpperCase() }}</a></strong>
                   </li>
                </ul>
