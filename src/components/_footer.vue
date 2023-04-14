@@ -10,7 +10,7 @@ export default {
 <template>
    <footer>
       <section id="footer_top">
-         <div class="container d-flex justify-content-between align-items-center py-3">
+         <div class="container d-flex justify-content-between align-items-center">
             <div id="links" class="d-flex text-white">
                <div>
                   <h5>DC COMICS</h5>
@@ -57,7 +57,7 @@ export default {
                </div>
             </div>
             <div class="foot_logo">
-               <img height="350" src="../assets/img/dc-logo-bg.png" alt="bg_dc_logo">
+               <!-- bg_dc -->
             </div>
          </div>
       </section>
