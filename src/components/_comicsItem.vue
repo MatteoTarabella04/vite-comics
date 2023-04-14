@@ -24,15 +24,4 @@ export default {
 </template>
 
 
-<style lang="scss" scoped>
-.item {
-   cursor: pointer;
-}
-
-img {
-   height: 200px;
-   width: 100%;
-   object-fit: cover;
-   object-position: top;
-}
-</style>
+<style lang="scss" scoped></style>
