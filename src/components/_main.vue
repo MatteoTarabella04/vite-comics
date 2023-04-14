@@ -1,8 +1,14 @@
 <script>
 
+import sectionIconBar from './_iconBar.vue';
+
 export default {
 
    name: 'appMain',
+
+   components: {
+      sectionIconBar,
+   },
 
    data() {
       return {
@@ -22,6 +28,10 @@ export default {
          <!-- /.container -->
       </section>
       <!-- /#main_sec -->
+
+      <sectionIconBar />
+      <!-- /sectionIconBar -->
+
    </main>
 </template>
 
