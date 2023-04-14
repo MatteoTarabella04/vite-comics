@@ -1,43 +1,15 @@
 <script>
+
+import menuLinks from "../assets/data/menuLinks";
+
 export default {
 
    name: 'appHeader',
 
    data() {
       return {
+         menuLinks,
          activeLink: -1,
-         menuLinks: [
-            {
-               name: "characters",
-            },
-            {
-               name: "comics",
-            },
-            {
-               name: "movies",
-            },
-            {
-               name: "tv",
-            },
-            {
-               name: "games",
-            },
-            {
-               name: "collectibles",
-            },
-            {
-               name: "videos",
-            },
-            {
-               name: "fans",
-            },
-            {
-               name: "news",
-            },
-            {
-               name: "shop",
-            },
-         ]
       }
    }
 
