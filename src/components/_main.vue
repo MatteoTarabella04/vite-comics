@@ -1,6 +1,7 @@
 <script>
 
 import sectionIconBar from './_iconBar.vue';
+import comics from '../assets/data/dc-comics.json';
 
 export default {
 
@@ -8,6 +9,7 @@ export default {
 
    components: {
       sectionIconBar,
+      comics,
    },
 
    data() {
@@ -20,12 +22,16 @@ export default {
 </script>
 
 <template>
-   <main class="bg-dark">
-      <section id="main_sec">
-         <div class="container">
-            <h3 class="m-0 py-5 text-white">-- Content Goes Here --</h3>
+   <main id="app_main" class="bg-dark">
+      <section class="main_jumbo">
+         <div class="tag bg-primary text-white text-uppercase text-center">
+            <h4 class="m-0"><strong>current series</strong></h4>
          </div>
-         <!-- /.container -->
+      </section>
+      <!-- /.main_jumbo -->
+
+      <section id="main_sec">
+
       </section>
       <!-- /#main_sec -->
 
