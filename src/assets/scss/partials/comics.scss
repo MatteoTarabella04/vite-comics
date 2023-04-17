@@ -4,6 +4,12 @@
 
 #main_sec {
 
+   .tag {
+      width: max-content;
+      padding: 0.5rem 1rem;
+      transform: translate(0, -50%);
+   }
+
    img {
       height: 200px;
       width: 100%;
